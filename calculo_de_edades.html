@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Diferencia de Edades</title>
+</head>
+<body>
+  <h1>Diferencia de Edades</h1>
+
+  <script>
+    function calcularDiferenciaEdad(edadPersona1, edadPersona2) {
+      var diferencia = edadPersona1 - edadPersona2;
+      return diferencia;
+    }
+
+    function imprimir(mensaje) {
+      document.write(mensaje);
+    }
+
+    // Aquí debes ingresar las edades tuyas y de tu hermano (o amigo)
+    var miEdad = 25;
+    var edadHermano = 30;
+
+    // Calculamos la diferencia de edades
+    var diferenciaEdad = calcularDiferenciaEdad(miEdad, edadHermano);
+
+    // Construimos el mensaje con la diferencia de edades
+    var mensaje = "Nuestra diferencia de edad es: " + diferenciaEdad;
+
+    // Imprimimos el mensaje
+    imprimir(mensaje);
+  </script>
+</body>
+</html>
+
